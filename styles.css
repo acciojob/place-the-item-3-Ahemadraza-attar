@@ -1,2 +1,17 @@
 
-/* Your CSS Code here. */
+
+.holder{
+    display: flex;
+    height:60vh;
+    width: 100vw;
+    background-color: blueviolet;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.inner-div{
+    background-color: aquamarine;
+    margin: 20px;
+    height:20vh;
+    width:20vh;
+}
